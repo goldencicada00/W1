@@ -56,6 +56,12 @@
 ----------------------------------------------------------------------------------------------------------------------------------------
 # result
 1. 用 Spectrum 比較
-![image](https://github.com/goldencicada00/W1/blob/main/image/1.png)
+   output:
+   ```
+   Original sample rate: 16000
+   STFT sample rate: 16000
+   IIR sample rate: 16000
+   ```
+   ![image](https://github.com/goldencicada00/W1/blob/main/image/1.png)
 2. 針對 IIR Filter 分析
-![image]()
+   ![image](https://github.com/goldencicada00/W1/blob/main/image/2.png)
