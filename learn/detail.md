@@ -2,7 +2,7 @@
 
 1. WAV 的 Sample rate = 16000 Hz
 
-    依 ![Nyquist theorem](https://github.com/goldencicada00/W1/blob/main/learn/Nyquist_Shannon_sampling_theorem.md)，可以表示的最高頻率是：
+    依 [Nyquist theorem](https://github.com/goldencicada00/W1/blob/main/learn/Nyquist_Shannon_sampling_theorem.md)，可以表示的最高頻率是：
   
     $$ f_{\text{max}} = \frac{f_s}{2} = \frac{16000}{2} = 8000 Hz $$
    
