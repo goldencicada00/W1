@@ -1,11 +1,11 @@
 # W1
-## 執行
+# 執行
 1. 執行產生 WAV 檔案 : `python audio_filter.py`
 2. 用 Spectrum 比較 : `python verify_audio.py`
 3. 針對 IIR Filter 分析 : `python verify_iir.py`
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-## create
+# create
 ### open file
 1. `cd /d "C:\Users\Amy.Cheng\Desktop\W1-W4\W1\作業"`
 ### install
@@ -53,4 +53,9 @@
 2. 建立:`verify_iir.py`
 3. 執行:`python verify_iir.py`
    
-
+----------------------------------------------------------------------------------------------------------------------------------------
+# result
+1. 用 Spectrum 比較
+![image]()
+2. 針對 IIR Filter 分析
+![image]()
