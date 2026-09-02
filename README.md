@@ -1,7 +1,7 @@
 # W1
-## open file
+### open file
 1. `cd /d "C:\Users\Amy.Cheng\Desktop\W1-W4\W1\作業"`
-## install
+### install
 1. `python -m pip install numpy scipy`
 ### run
 1. `audio_filter.py`
@@ -20,5 +20,5 @@
       enroll_STFT_HPF.wav
       enroll_IIR_HPF.wav
    ```
-4. 
-5. ``
+### check
+
