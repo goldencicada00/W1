@@ -28,5 +28,9 @@
      * IIR processed
      
      三個音訊的頻率
-
+2. 安裝 matplotlib
+   `python -m pip install matplotlib`
+3. run
+   `python verify_audio.py`
+   
 
