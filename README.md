@@ -20,7 +20,7 @@
       enroll_STFT_HPF.wav
       enroll_IIR_HPF.wav
    ```
-### check:use specturm
+### check : use specturm
 1. 做一個:`verify_audio.py`
    * 它專門比較：
      * Original
@@ -32,5 +32,9 @@
    `python -m pip install matplotlib`
 3. run
    `python verify_audio.py`
+### 畫 IIR Filter 本身
+1. 可以直接回答：「我的 Butterworth filter 真的是 100 Hz HPF 嗎？」
+2. 建立:`verify_iir.py`
+3. 執行:`python verify_iir.py`
    
 
