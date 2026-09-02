@@ -20,5 +20,13 @@
       enroll_STFT_HPF.wav
       enroll_IIR_HPF.wav
    ```
-### check
+### check:use specturm
+1. 做一個:`verify_audio.py`
+   * 它專門比較：
+     *　Original
+     *　STFT processed
+     *　IIR processed
+     
+     三個音訊的頻率
+
 
