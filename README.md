@@ -1,9 +1,11 @@
 # W1
 # 執行
 1. 執行產生 WAV 檔案 : `python audio_filter.py`
+   * 產生兩個 WAV
 2. 用 Spectrum 比較 : `python verify_audio.py`
+   * 比較 Original、STFT、IIR 三個輸出結果的 PSD
 3. 針對 IIR Filter 分析 : `python verify_iir.py`
-
+   * 確認 100 Hz IIR Butterworth filter 本身的 frequency response
 ----------------------------------------------------------------------------------------------------------------------------------------
 # create
 ### open file
