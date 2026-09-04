@@ -87,24 +87,24 @@ GitHub = 把這個 Git 資料夾放到雲端，讓其他電腦也能存取
    ```
 10. 上傳到 GitHub
     1. 到 GitHub 建立一個新的 Repository
-         
+         ```
          登入 GitHub → 右上角 + → New repository。
-         
+         ```
          建議設定：
-         
+         ```
          Repository name: W1-W4
-         
+         ```
          Description: 可以不填
-         
+         ```
          Private: ✅ 建議選 Private
-         
+         ```
          下面這三個先全部不要勾：
-         
+         ```
          ☐ Add a README file
          ☐ Add .gitignore
          ☐ Choose a license
-         
-         因為你本機已經有 Git repository 和 commit 了。
+         ```
+         因為本機已經有 Git repository 和 commit 了
          
          然後按：
          
