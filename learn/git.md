@@ -86,7 +86,7 @@ GitHub = 把這個 Git 資料夾放到雲端，讓其他電腦也能存取
    git branch -M main
    ```
 10. 上傳到 GitHub
-    1. 到 GitHub 建立一個新的 Repository
+      1. 到 GitHub 建立一個新的 Repository
          ```
          登入 GitHub → 右上角 + → New repository。
          ```
@@ -107,6 +107,21 @@ GitHub = 把這個 Git 資料夾放到雲端，讓其他電腦也能存取
          因為本機已經有 Git repository 和 commit 了
          
          然後按：
-         
+         ```
          Create repository
-12. 
+         ```
+      2. GitHub 建立完成後，複製 HTTPS 網址
+
+         會長得類似：
+         ```
+         https://github.com/你的GitHub帳號/W1-W4.git
+         ```
+      3. vs code
+         ```
+         git remote add origin https://github.com/daigongzhu/W1-W4.git
+         ```
+      4. 把 W1-W4 上傳 GitHub
+         ```
+         git push -u origin main
+         ```
+12. done
