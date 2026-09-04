@@ -1,9 +1,10 @@
-# stater
+# 主要電腦 (main)
+### stater
 Git = 管理你電腦資料夾的「版本紀錄」
 
 GitHub = 把這個 Git 資料夾放到雲端，讓其他電腦也能存取
 
-# Git 管理 資料夾
+### Git 管理 資料夾
 先在 Terminal / PowerShell / VS Code Terminal 進入該資料夾
 1. windows
    `cd "C:\Users\你的名字\Desktop\資料夾"`
@@ -126,3 +127,32 @@ GitHub = 把這個 Git 資料夾放到雲端，讓其他電腦也能存取
          git push -u origin main
          ```
 12. done
+
+
+# 另一台若是 Mac
+
+## 前置作業
+
+第一次不需自己建立 W1-W4 資料夾，直接在 Terminal 到想放的位置，如 Desktop：
+```
+cd ~/Desktop
+```
+然後：
+```
+git clone https://github.com/daigongzhu/W1-W4.git
+```
+就會自動產生：
+```
+Desktop/
+└── W1-W4/
+    ├── W1/
+    ├── W2/
+    ├── W3/
+    ├── W4/
+    ├── skill/
+    └── todo_list.txt
+```
+接著：
+```
+cd W1-W4
+```
